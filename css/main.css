@@ -1,0 +1,280 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+@font-face {
+    font-family: Gilroy;
+    src: url('../fonts/Gilroy.ttf');
+}
+.logo-head{
+    width: 100px;
+    height: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.left a{
+    text-decoration: none;
+    color: #fff;
+}
+.right a{
+    text-decoration: none;
+    color: #fff;
+}
+.right span{
+    color:#707070
+}
+.screen-one{
+    background: url('../img/screen-one.jpg')0 0 no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 1100px;
+    color: #fff;
+}
+.heading{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 500px;
+}
+.heading h1{
+    font-size: 64px;
+    width: 900px;
+}
+.btn-vid{
+    display: flex;
+    gap: 35px;
+    padding-top: 40px;
+}
+.blue-btn{
+    padding: 15px;
+    background: #154796;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+.vid-txt {
+    padding: 15px;
+    font-size: 18px;
+    width: 300px;
+    text-decoration: none;
+    color: #fff;
+}
+.video{
+    display: flex;
+    align-items: center;
+}
+
+.screen-two{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.catalog{
+    margin-top: 55px;
+}
+.catalog h1{
+    margin-top: 5px;
+    margin-bottom: 75px;
+}
+.gray{
+    color: gray;
+}
+.wrapper {
+    display: flex;
+    gap: 100px;
+}
+.box {
+    width: 350px;
+    height: 450px;
+}
+.box img{
+    width: 350px;
+    height: 350px;
+}
+.screen-three{
+    width: 100%;
+    height: 750px;
+    margin: 0 auto;
+    background: url('../img/screen-three.jpg')0 0 no-repeat;
+    background-size: 100%;
+}
+.block{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 220px;
+}
+.description{
+    width: 1440px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 30px;
+}
+.description h1{
+    color: #fff;
+}
+.prod-number{
+    display: flex;
+    gap: 200px;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.num{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    align-items: center;
+    font-weight: bold;
+}
+.num h1{
+    font-size: 106px;
+    color: #fff;
+}
+.four-block h1{
+    margin-top: 70px;
+}
+.screen-four{
+    width: 1440px;
+    margin: 0 auto;
+}
+.wrapper-4{
+    display: flex;
+    gap: 140px;
+    margin-top: 30px;
+}
+.box4{
+    width: 350px;
+    height: 300px;
+}
+.box4 h2{
+    margin-top: 10px;
+}
+.box4 img{
+    width: 400px;
+    height: 250px;
+}
+.partners{
+    margin-top: 120px;
+}
+.partners-logo{
+    display: flex;
+    gap: 50px;
+}
+.partners-logo img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 165px;
+    height: 145px;
+}
+.faq {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.faq hr{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.faq h1{
+    font-size: 60px;
+}
+.faq-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 250px; */
+}
+.application{
+    margin-top: 120px;
+}
+form{
+    margin-top: 25px;
+}
+form input{
+    width: 1440px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 18px;
+}
+.form-buttons{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.form-buttons button{
+    width: 200px;
+    padding: 20px;
+    background: #154796;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+footer{
+    width: 1440px;
+    margin: 0 auto;
+    height: 380px;
+    padding: 20px;
+    background: #0D264E;
+}
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    gap: 130px;
+    width: 1440px;
+    justify-content: center;
+}
+.two, .three, .four{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.footer-links a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #9AA5B5;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
+.cr {
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
